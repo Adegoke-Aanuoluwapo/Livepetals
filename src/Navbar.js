@@ -13,35 +13,35 @@ const Navbar = () => {
         <div className="nav-header">
           <img src={logo} className="nav-logo" alt="Livepetals" />
           <h1>Livepetals</h1>
+          <ul className="nav-links">
+            <li>
+              <a href="www.livepetal.com">Home</a>
+            </li>
+            <li>
+              <a className="link-btn" href="www.livepetal.com">
+                Affiliate
+              </a>
+            </li>
+            <li>
+              <a className="link-btn" href="www.livepetal.com">
+                Creators
+              </a>
+            </li>
+            <li>
+              <a className="link-btn" href="www.livepetal.com">
+                FAQS
+              </a>
+            </li>
+            <li>
+              <a className="link-btn" href="www.livepetal.com">
+                Login
+              </a>
+            </li>
+          </ul>
           <button className="btn toggle-btn" onClick={openSidebar}>
-            <FaBars />
+            Get Started
           </button>
         </div>
-        <ul className="nav-links">
-          <li>
-            <a href="www.livepetal.com">Home</a>
-          </li>
-          <li>
-            <a className="link-btn" href="www.livepetal.com">
-              Affiliate
-            </a>
-          </li>
-          <li>
-            <a className="link-btn" href="www.livepetal.com">
-              Creators
-            </a>
-          </li>
-          <li>
-            <a className="link-btn" href="www.livepetal.com">
-              FAQS
-            </a>
-          </li>
-          <li>
-            <a className="link-btn" href="www.livepetal.com">
-              Login
-            </a>
-          </li>
-        </ul>
       </div>
     </nav>
   );

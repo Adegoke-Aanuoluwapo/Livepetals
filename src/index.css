@@ -102,9 +102,83 @@ body {
 }
 .nav-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+.nav-header .nav-links {
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  margin: 20px;
+  padding-left: 80px;
+}
+a {
+  text-decoration: none;
 }
 .nav-logo {
   width: 5vh;
+}
+.section {
+  display: flex;
+  margin: 50px;
+  grid-template-columns: 150px 50px;
+}
+.section-left {
+  padding: 100px;
+  background-color: tomato;
+  font-size: bold;
+}
+.section-img {
+  background-color: green;
+  width: 500px;
+}
+.upper {
+  margin: 50px;
+  margin-left: 300px;
+}
+.lower {
+  display: flex;
+  margin: 50px;
+}
+.build {
+  display: flex;
+  margin: 20px;
+}
+.build-left {
+  padding: 40px;
+}
+.build-right {
+}
+.right-img {
+  width: 500px;
+}
+.launch {
+  background-color: skyblue;
+  padding: 50px;
+  display: flex;
+  margin: 50px;
+  border-radius: 20px;
+}
+.launch-left {
+  padding: 30px;
+}
+.launch-right {
+  width: 150px;
+}
+.launch-image {
+  width: 400px;
+}
+.launch-par {
+  background-color: turquoise;
+  padding: 8px;
+  border-radius: 15px;
+}
+.wide {
+  display: flex;
+  margin: 50px;
+}
+.wide-img {
+  width: 400px;
 }
