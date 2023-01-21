@@ -7,6 +7,7 @@ import Business from "./Business";
 import Build from "./Build";
 import Launch from "./Launch";
 import Wide from "./Wide";
+import Affiliate from "./Affiliate";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Build />
       <Launch />
       <Wide />
+      <Affiliate />
     </div>
   );
 }
