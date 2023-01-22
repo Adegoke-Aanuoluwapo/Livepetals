@@ -15,7 +15,9 @@ const Navbar = () => {
           <h1>Livepetals</h1>
           <ul className="nav-links">
             <li>
-              <a href="www.livepetal.com">Home</a>
+              <a className="link-btn" href="www.livepetal.com">
+                Home
+              </a>
             </li>
             <li>
               <a className="link-btn" href="www.livepetal.com">

@@ -8,6 +8,8 @@ import Build from "./Build";
 import Launch from "./Launch";
 import Wide from "./Wide";
 import Affiliate from "./Affiliate";
+import Trend from "./Trend";
+import Earn from "./Earn";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Launch />
       <Wide />
       <Affiliate />
+      <Trend />
+      <Earn />
     </div>
   );
 }

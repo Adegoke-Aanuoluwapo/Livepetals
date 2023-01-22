@@ -117,6 +117,18 @@ body {
 a {
   text-decoration: none;
 }
+.link-btn {
+  font-size: 20px;
+  margin: 20px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.btn {
+  margin-left: 100px;
+  padding: 0px 40px;
+  font-size: medium;
+  cursor: pointer;
+}
 .nav-logo {
   width: 5vh;
 }
@@ -188,4 +200,107 @@ a {
 }
 .Affiliate-img {
   width: 700px;
+}
+.trend {
+  margin: 50px;
+}
+.trend-up {
+  margin-left: 250px;
+}
+.trend-down {
+  display: grid;
+  grid-template-areas:
+    "a b c d"
+    "e f g h";
+}
+.product {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.commerce {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.software {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.content {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.concept {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.design {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.autocad {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.mobile {
+  margin: 40px;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.earn {
+  display: grid;
+  grid-template-areas: "a b";
+  margin: 50px;
+  background-color: blue;
+}
+.earn-left {
+  width: 600px;
+}
+.earn-img {
+  width: 600px;
+}
+.par {
+  font-weight: 600;
+  text-align: initial;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+.learn-btn {
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border-color: white;
 }
