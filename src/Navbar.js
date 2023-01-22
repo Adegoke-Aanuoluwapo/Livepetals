@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} className="nav-logo" alt="Livepetals" />
-          <h1>Livepetals</h1>
+          <h1 className="petals">Livepetals</h1>
           <ul className="nav-links">
             <li>
               <a className="link-btn" href="www.livepetal.com">
