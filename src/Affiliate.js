@@ -8,15 +8,15 @@ const Affiliate = () => {
         <img src={img} className="Affiliate-img" />
       </div>
       <div className="Affiliate-right">
-        <h1>
+        <h1 className="unique">
           Become Livepetal Affiliate and earn money promoting digital solutions
         </h1>
         <ul>
-          <li>
+          <li className="list">
             Learn how to master the art of selling anything online to generate
             massive cashflow
           </li>
-          <li>
+          <li className="list">
             Understand the power of automating sales to trigger constant
             cashflow even while you are away
           </li>

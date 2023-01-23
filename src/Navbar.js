@@ -39,10 +39,8 @@ const Navbar = () => {
                 Login
               </a>
             </li>
+            <a className="nav-btn">Get Started</a>
           </ul>
-          <button className="btn toggle-btn" onClick={openSidebar}>
-            Get Started
-          </button>
         </div>
       </div>
     </nav>

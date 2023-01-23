@@ -93,7 +93,7 @@ body {
   align-items: center;
   justify-content: center;
   background: transparent;
-  position: relative;
+  position: static;
   z-index: 1;
 }
 .nav-center {
@@ -103,9 +103,21 @@ body {
 .nav-header {
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+  position: relative;
 }
 .nav-header .nav-links {
   align-items: center;
+}
+.nav-btn {
+  padding: 0 17px;
+  font-weight: 500;
+  font-size: 19px;
+  height: 64px;
+  cursor: pointer;
+  padding-right: 45px;
 }
 .nav-links {
   display: flex;
@@ -128,9 +140,14 @@ a {
 }
 .btn {
   margin-left: 100px;
-  padding: 0px 40px;
-  font-size: medium;
+  padding: 1rem;
+
   cursor: pointer;
+  background-color: #036;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border-color: white;
 }
 .nav-logo {
   width: 5vh;
@@ -146,7 +163,7 @@ a {
 
   font-size: bold;
 }
-.section-list {
+.list {
   color: white;
   font-weight: 600;
   text-align: initial;
@@ -206,7 +223,7 @@ a {
   width: 400px;
 }
 .Affiliate {
-  background-color: blue;
+  background-color: #036;
   display: flex;
 }
 .Affiliate-img {
@@ -307,6 +324,10 @@ a {
   font-size: 20px;
   color: white;
 }
+.unique {
+  color: #fff;
+}
+
 .learn-btn {
   padding: 1rem;
   background-color: #036;
@@ -315,6 +336,65 @@ a {
   font-size: 20px;
   border-color: white;
 }
-h1 {
-  color: white;
+
+.bonus {
+  display: grid;
+  grid-template-areas: "a b";
+  margin: 50px;
+  width: 100%;
+  height: 40vh;
+}
+.bonus-left {
+  width: 40vw;
+}
+.bonus-right {
+  width: 40vw;
+  padding-top: 70px;
+}
+.bopar {
+  font-weight: 500;
+  font-size: 20px;
+}
+.input {
+  padding: 15px;
+  width: 30vw;
+  font-size: 20px;
+}
+.bon-button {
+  width: 7vw;
+  height: 8vh;
+  margin-left: 10px;
+  background-color: #036;
+  color: #fff;
+  font-size: 20px;
+}
+.live {
+  margin: 50px;
+  display: grid;
+  grid-template-areas: "a b c d e";
+}
+.petal {
+  width: 20vw;
+}
+.connect-link {
+  display: flex;
+}
+.live-link {
+  list-style-type: none;
+}
+.linked {
+  margin: 7px;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  margin: 50px;
+  margin-top: 20px;
+}
+.foot-right {
+  margin-left: 600px;
+}
+.foot-par {
+  font-size: 16px;
+  font-weight: 400;
 }

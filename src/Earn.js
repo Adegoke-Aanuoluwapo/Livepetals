@@ -5,7 +5,9 @@ const Earn = () => {
   return (
     <div className="earn">
       <div className="earn-left">
-        <h1>Earn money sharing what you know & create an online empire</h1>
+        <h1 className="unique">
+          Earn money sharing what you know & create an online empire
+        </h1>
         <p className="par">
           Become a Content Creator in Livepetal and transform your experience,
           knowledge and skill set into a thriving business that generates

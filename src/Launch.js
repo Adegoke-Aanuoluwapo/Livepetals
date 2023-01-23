@@ -5,7 +5,9 @@ const Launch = () => {
     <div className="launch">
       <div className="launch-left">
         <p className="launch-par">LAUCHING SOON</p>
-        <h1>Start building latest and future skills with Lentoria</h1>
+        <h1 className="launch-head">
+          Start building latest and future skills with Lentoria
+        </h1>
         <ul>
           <li>
             Lentoria offers you an opportunity to learn new skills on the go at
