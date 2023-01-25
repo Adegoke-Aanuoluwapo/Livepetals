@@ -52,7 +52,7 @@ function App() {
       <Live />
       <hr />
       <Footer />
-      <h1>Incredible</h1>
+      <h1></h1>
     </div>
   );
 }
