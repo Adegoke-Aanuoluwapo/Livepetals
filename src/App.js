@@ -52,7 +52,6 @@ function App() {
       <Live />
       <hr />
       <Footer />
-      <h1></h1>
     </div>
   );
 }
