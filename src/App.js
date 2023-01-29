@@ -1,20 +1,11 @@
 import logo from "./logo.svg";
 //import "./App.css";
-import Navbar from "./Navbar";
-import Section from "./Section";
-import Sidebar from "./Sidebar";
-import Business from "./Business";
-import Build from "./Build";
-import Launch from "./Launch";
-import Wide from "./Wide";
-import Affiliate from "./Affiliate";
-import Trend from "./Trend";
-import Earn from "./Earn";
-import Bonus from "./Bonus";
-import Live from "./Live";
-import Footer from "./Footer";
+
 import Home from "./Home";
 import Creator from "./Creator";
+import Affiliate from "./Affiliate";
+import Login from "./Login";
+import Program from "./Program";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -29,38 +20,46 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
+        <Route path="/Affiliate" element={<Affiliate />} />
         <Route path="/Creator" element={<Creator />} />
-        <Route element={<Section />} />
+        <Route path="/Program" element={<Program />} />
+        <Route path="/Login" element={<Login />} />
       </Route>
     )
   );
   return (
     <div className="App">
-      <Navbar />
-      {/* <Sidebar /> */}
-      <Section />
-      <Business />
-      <hr />
-      <Build />
-      <Launch />
-      <Wide />
-      <Affiliate />
-      <Trend />
-      <Earn />
-      <Bonus />
-      <hr />
-      <Live />
-      <hr />
-      <Footer />
+      <RouterProvider router={router} />
     </div>
+    // <Navbar />
+    // {/* <Sidebar /> */}
+    // <Section />
+    // <Business />
+    // <hr />
+    // <Build />
+    //     <Launch />
+    //     <Wide />
+    //     <Affiliate />
+    //     <Trend />
+    //     <Earn />
+    //     <Bonus />
+    //     <hr />
+    //     <Live />
+    //     <hr />
+    //     <Footer />
+    //   </div>
   );
 }
+
 const Root = () => {
   return (
     <>
       <div>
         <Link to="/">Home</Link>
-        <Link to="/data">Data</Link>
+        <Link to="/Affiliate">Affiliate</Link>
+        <Link to="/Creator">Creators</Link>
+        <Link to="/Program">Program</Link>
+        <Link to="/Login">Log In</Link>
       </div>
 
       <div>

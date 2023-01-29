@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, Link } from "react";
 import ReactDOM from "react-dom/client";
 import logo from "./images/petalfav.jpg";
 import { FaBars } from "react-icons/fa";
@@ -15,12 +15,12 @@ const Navbar = () => {
           <h1 className="petals">Livepetals</h1>
           <ul className="nav-links">
             <li>
-              <a className="link-btn" href="www.livepetal.com">
+              <a className="link-btn" as={Link} to={"/Home"}>
                 Home
               </a>
             </li>
             <li>
-              <a className="link-btn" href="www.livepetal.com">
+              <a className="link-btn" as={Link} to={"/Affiliate"}>
                 Affiliate
               </a>
             </li>
