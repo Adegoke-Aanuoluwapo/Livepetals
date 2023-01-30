@@ -1,9 +1,10 @@
 import React from "react";
+import EarnPro from "./EarnPro";
 
 const Affiliate = () => {
   return (
     <div>
-      <h1>Affiliate</h1>
+      <EarnPro />
     </div>
   );
 };
