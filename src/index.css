@@ -400,11 +400,14 @@ a {
 }
 .petals {
   padding: 50px;
-  padding-left: 150px;
 }
 .petal-img {
   width: 15vw;
 }
+.petal-up {
+  padding-left: 200px;
+}
 .petals-down {
   display: flex;
+  padding-left: 100px;
 }

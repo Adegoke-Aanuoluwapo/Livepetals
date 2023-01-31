@@ -6,7 +6,7 @@ import img2 from "./images/img-24.png";
 const Petals = () => {
   return (
     <div className="petals">
-      <div>
+      <div className="petal-up">
         <h1>
           Become a Livepetal Affiliate and take control of unlimited casflow
           streams
