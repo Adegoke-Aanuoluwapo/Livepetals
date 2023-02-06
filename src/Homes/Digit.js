@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/hero-5-img.png";
+import img from "../images/hero-5-img.png";
 
 const Affiliate = () => {
   return (

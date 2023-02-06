@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Navbar from "./Navbar";
-import { AppProvider } from "./context";
+import Navbar from "./Navbars/Navbar";
+import { AppProvider } from "./Homes/context";
 //import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

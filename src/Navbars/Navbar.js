@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, Link } from "react";
 import ReactDOM from "react-dom/client";
-import logo from "./images/petalfav.jpg";
+import logo from "../images/petalfav.jpg";
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
 import { useGlobalContext } from "./context";

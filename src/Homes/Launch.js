@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/img-10.png";
+import img from "../images/img-10.png";
 const Launch = () => {
   return (
     <div className="launch">

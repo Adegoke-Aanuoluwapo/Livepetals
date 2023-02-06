@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/hero-23-img.jpg";
+import img from "../images/hero-23-img.jpg";
 
 const Earn = () => {
   return (

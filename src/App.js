@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 //import "./App.css";
 
-import Home from "./Home";
+import Home from "./Homes/Home";
 import Creator from "./Creator";
-import Affiliate from "./Affiliate";
+import Affiliate from "./Affiliates/Affiliate";
 import Login from "./Login";
 import Program from "./Program";
 import {

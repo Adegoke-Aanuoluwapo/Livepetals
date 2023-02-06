@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/img-17.png";
+import img from "../images/img-17.png";
 import { useGlobalContext } from "./context";
 import { ImBook } from "react-icons/ai";
 

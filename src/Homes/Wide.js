@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/img-11.png";
+import img from "../images/img-11.png";
 const Wide = () => {
   return (
     <div className className="wide">

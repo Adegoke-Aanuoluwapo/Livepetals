@@ -1,7 +1,7 @@
 import React from "react";
-import img0 from "./images/img18.png";
-import img1 from "./images/img-23.png";
-import img2 from "./images/img-24.png";
+import img0 from "../images/img18.png";
+import img1 from "../images/img-23.png";
+import img2 from "../images/img-24.png";
 
 const Petals = () => {
   return (

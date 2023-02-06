@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/img-04.png";
+import img from "../images/img-04.png";
 
 const EarnPro = () => {
   return (
