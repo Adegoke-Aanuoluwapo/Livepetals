@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../images/register.png";
 
 const Build = () => {
   return (
@@ -17,7 +16,7 @@ const Build = () => {
         </p>
       </div>
       <div className="build-right">
-        <img src={img} className="right-img" alt="build" />
+        <img src="../images/register.png" className="right-img" alt="build" />
       </div>
     </div>
   );

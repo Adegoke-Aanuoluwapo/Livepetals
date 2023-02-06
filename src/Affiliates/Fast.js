@@ -1,10 +1,10 @@
 import React from "react";
-import img from "../images/img8.png";
+
 const Fast = () => {
   return (
     <div className="Fast">
       <div className="Fast-left">
-        <img src={img} className="fast-img" alt="fast" />
+        <img src=".../public/images/img8.png" className="fast-img" alt="fast" />
       </div>
       <div className="Fast-right">
         <h1>Very fast approach to becoming an online sales giant</h1>
@@ -22,7 +22,7 @@ const Fast = () => {
             sales engine and remove the lid from your sales efforts
           </li>
         </ul>
-        <button>Get Started Now</button>
+        <button className="btn">Get Started Now</button>
       </div>
     </div>
   );

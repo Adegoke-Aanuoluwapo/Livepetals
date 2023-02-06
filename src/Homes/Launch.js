@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/img-10.png";
+
 const Launch = () => {
   return (
     <div className="launch">
@@ -24,7 +24,7 @@ const Launch = () => {
         </ul>
       </div>
       <div className="launch-right">
-        <img src={img} alt="launch" className="launch-image" />
+        <img src="../images/img-10.png" alt="launch" className="launch-image" />
       </div>
     </div>
   );

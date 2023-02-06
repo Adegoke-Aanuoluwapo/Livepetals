@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../images/hero-23-img.jpg";
 
 const Earn = () => {
   return (
@@ -22,7 +21,7 @@ const Earn = () => {
         <button className="learn-btn">Learn More</button>
       </div>
       <div className="earn-right">
-        <img src={img} className="earn-img" alt="" />
+        <img src="../images/hero-23-img.jpg" className="earn-img" alt="" />
       </div>
     </div>
   );

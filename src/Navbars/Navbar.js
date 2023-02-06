@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, Link } from "react";
 import ReactDOM from "react-dom/client";
-import logo from "../images/petalfav.jpg";
+
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
 // import { useGlobalContext } from "./context";
@@ -11,7 +11,11 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="Livepetals" />
+          <img
+            src="../images/petalfav.jpg"
+            className="nav-logo"
+            alt="Livepetals"
+          />
           <h1 className="petals">Livepetals</h1>
           <ul className="nav-links">
             <li>

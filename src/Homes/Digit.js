@@ -1,11 +1,10 @@
 import React from "react";
-import img from "../images/hero-5-img.png";
 
 const Affiliate = () => {
   return (
     <div className="Affiliate">
       <div className="Affiliate-left">
-        <img src={img} className="Affiliate-img" />
+        <img src="../images/hero-5-img.png" className="Affiliate-img" />
       </div>
       <div className="Affiliate-right">
         <h1 className="unique">

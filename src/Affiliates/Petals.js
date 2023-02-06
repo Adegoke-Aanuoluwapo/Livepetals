@@ -1,7 +1,4 @@
 import React from "react";
-import img0 from "../images/img18.png";
-import img1 from "../images/img-23.png";
-import img2 from "../images/img-24.png";
 
 const Petals = () => {
   return (
@@ -18,7 +15,7 @@ const Petals = () => {
       </div>
       <div className="petals-down">
         <div className="first">
-          <img src={img0} alt="" className="petal-img" />
+          <img src="../images/img18.png" alt="" className="petal-img" />
           <h2>Extremely Simplified</h2>
           <p>
             You don't need to be a professional, Livepetal gives you all the
@@ -27,7 +24,7 @@ const Petals = () => {
           </p>
         </div>
         <div className="second">
-          <img src={img1} alt="" className="petal-img" />
+          <img src="../images/img-23.png" alt="" className="petal-img" />
           <h2>Control your Options</h2>
           <p>
             You can take full control of your options to determine where you
@@ -35,7 +32,7 @@ const Petals = () => {
           </p>
         </div>
         <div className="third">
-          <img src={img2} alt="" className="petal-img" />
+          <img src="../images/img-24.png" alt="" className="petal-img" />
           <h2>Active automation</h2>
           <p>
             By automation your online marketing campeign you are able to
