@@ -3,10 +3,10 @@ import ReactDOM from "react-dom/client";
 import logo from "../images/petalfav.jpg";
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
-import { useGlobalContext } from "./context";
+// import { useGlobalContext } from "./context";
 
 const Navbar = () => {
-  const { openSidebar } = useGlobalContext();
+  // const { openSidebar } = useGlobalContext();
   return (
     <nav>
       <div className="nav-center">
@@ -15,7 +15,7 @@ const Navbar = () => {
           <h1 className="petals">Livepetals</h1>
           <ul className="nav-links">
             <li>
-              <a className="link-btn" as={Link} to={"/Home"}>
+              <a className="link-btn" as={Link} to={"/localhost"}>
                 Home
               </a>
             </li>

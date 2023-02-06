@@ -411,3 +411,13 @@ a {
   display: flex;
   padding-left: 100px;
 }
+.Fast {
+  padding: 100px;
+  display: flex;
+}
+.fast-img {
+  width: 30vw;
+}
+.fast-right {
+  height: 100vh;
+}

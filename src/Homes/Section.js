@@ -5,7 +5,6 @@ import { ImBook } from "react-icons/ai";
 
 const Section = () => {
   const data = useGlobalContext();
-  console.log(data);
   return (
     <div className="section">
       <div className="section-left">

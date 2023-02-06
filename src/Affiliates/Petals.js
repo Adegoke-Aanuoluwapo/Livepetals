@@ -7,10 +7,10 @@ const Petals = () => {
   return (
     <div className="petals">
       <div className="petal-up">
-        <h1>
+        <h2>
           Become a Livepetal Affiliate and take control of unlimited casflow
           streams
-        </h1>
+        </h2>
         <p>
           A smart approach to mastering the art of selling anything online with
           ease and keep huge profit flowing in constantly
@@ -19,7 +19,7 @@ const Petals = () => {
       <div className="petals-down">
         <div className="first">
           <img src={img0} alt="" className="petal-img" />
-          <h1>Extremely Simplified</h1>
+          <h2>Extremely Simplified</h2>
           <p>
             You don't need to be a professional, Livepetal gives you all the
             guide you need to start building your online business empire right
@@ -28,7 +28,7 @@ const Petals = () => {
         </div>
         <div className="second">
           <img src={img1} alt="" className="petal-img" />
-          <h1>Control your Options</h1>
+          <h2>Control your Options</h2>
           <p>
             You can take full control of your options to determine where you
             want your main cashflow to come from and how you want to manage them
