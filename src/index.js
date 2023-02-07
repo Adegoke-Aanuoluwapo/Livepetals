@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "./css/menu.css";
+import "./css/bootstrap.min.css";
 import App from "./App";
 import Navbar from "./Navbars/Navbar";
 import { AppProvider } from "./Homes/context";
