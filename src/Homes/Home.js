@@ -19,6 +19,7 @@ const Home = () => {
       <Navbar />
       {/* <Sidebar /> */}
       <Section />
+      <hr className="divider" />
       <Business />
       <hr />
       <Build />
