@@ -7,7 +7,7 @@ const Business = () => {
       className="content-3 wide-60 content-section division"
     >
       <div className="container">
-        <div className="row-justify-content-center">
+        <div className="row justify-content-center">
           <div className="col-lg-10 col-xl-8">
             <div className="section-title title-01 mb-70 mt-70">
               <h1>Livepetals for every businesses</h1>
@@ -61,7 +61,9 @@ const Business = () => {
               >
                 <div className="fbox-img pb-0 mb-0 bg-whitesmoke-gradient">
                   <div className="ico-65">
-                    <span className="flaticon-dollar"></span>
+                    <span className="flaticon-dollar">
+                      {/* <img src="../images/dollar.jpg" alt="dollar" /> */}
+                    </span>
                   </div>
                 </div>
                 <h5 className="h5-md">Launch Globally</h5>

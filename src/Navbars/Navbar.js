@@ -15,7 +15,7 @@ const Navbar = () => {
             {/* <!-- Mobile Header -- */}
             <div className="wsmobileheader clearfix">
               <span className="smllogo">
-                <img src="../images/logo-white.png" alt="mobile-log"></img>
+                <img src="../images/logo-black.png" alt="mobile-log"></img>
               </span>
               <a id="wsnavtoggle" className="wsanimated-arrow">
                 <span></span>
