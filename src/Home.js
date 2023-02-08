@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbars/Navbar";
+import Navbar from "./Navbar";
 import Section from "./Section";
 import Sidebar from "./Sidebar";
 import Business from "./Business";
@@ -19,9 +19,8 @@ const Home = () => {
       <Navbar />
       {/* <Sidebar /> */}
       <Section />
-      <hr className="divider" />
       <Business />
-      <hr className="divider" />
+      <hr />
       <Build />
       <Launch />
       <Wide />

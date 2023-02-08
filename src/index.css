@@ -96,7 +96,7 @@ body {
   position: static;
   z-index: 1;
 }
-.nav-center {
+/* .nav-center {
   width: 90vw;
   max-width: var(--max-width);
 }
@@ -420,7 +420,7 @@ a {
 }
 .fast-right {
   height: 100vh;
-}
+} */
 
 .btn {
   background-color: #036;

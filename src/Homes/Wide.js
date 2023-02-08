@@ -2,6 +2,7 @@ import React from "react";
 
 const Wide = () => {
   return (
+    <section className="content-3 wide-60 content-section division"></section>
     <div className className="wide">
       <div className="wide-left">
         <h1>A wide variety of reliable solutions</h1>

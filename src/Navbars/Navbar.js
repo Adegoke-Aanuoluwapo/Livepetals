@@ -70,6 +70,7 @@ const Navbar = () => {
             </div>
           </div>
         </header>
+        {/* END HEADER */}
       </div>
     </div>
 
