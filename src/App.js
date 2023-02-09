@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 //import "./App.css";
+import "./index.css";
 
 import Home from "./Homes/Home";
 import Creator from "./Creator";

@@ -87,7 +87,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
-.nav {
+/* .nav {
   height: 5rem;
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ body {
   background: transparent;
   position: static;
   z-index: 1;
-}
+} */
 /* .nav-center {
   width: 90vw;
   max-width: var(--max-width);
@@ -422,23 +422,6 @@ a {
   height: 100vh;
 } */
 
-.btn {
-  background-color: #036;
-  color: #fff;
-  font-size: 1.1rem;
-  line-height: 1;
-  font-weight: 500;
-  padding: 16px 32px;
-  border: 1px solid transparent;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-transition: all 400ms ease-in-out;
-  -moz-transition: all 400ms ease-in-out;
-  -o-transition: all 400ms ease-in-out;
-  -ms-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
-}
 /******************************/
 
 /*

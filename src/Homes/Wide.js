@@ -43,16 +43,6 @@ const Wide = () => {
           </div>
         </div>
       </div>
-      <div className className="wide">
-        <div className="wide-left">
-          <h1></h1>
-          <p></p>
-          <p></p>
-        </div>
-        <div className="wide-right">
-          <img src="../images/img-11.png" alt="wide" className="wide-img" />
-        </div>
-      </div>
     </section>
   );
 };

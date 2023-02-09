@@ -822,7 +822,9 @@ body {
 .bg-deepyellow {
   background-color: #ffa755;
 }
-
+.bg-livepetal {
+  background-color: #036 !important;
+}
 /*------------------------------------------*/
 /*  Transparent Background Colors
 /*------------------------------------------*/

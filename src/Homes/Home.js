@@ -28,10 +28,11 @@ const Home = () => {
       <Digit />
       <Trend />
       <Earn />
+
       <Bonus />
-      <hr />
+      <hr className="divider" />
       <Live />
-      <hr />
+      <hr className="divider" />
       <Footer />
     </div>
   );

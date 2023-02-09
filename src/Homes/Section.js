@@ -6,7 +6,11 @@ import { ImBook } from "react-icons/ai";
 const Section = () => {
   const data = useGlobalContext();
   return (
-    <section id="hero-4" className="bg-scroll hero-section division">
+    <section
+      id="hero-4"
+      className="bg-scroll hero-section division"
+      style={{ backgroundColor: "#036" }}
+    >
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-md-6">
