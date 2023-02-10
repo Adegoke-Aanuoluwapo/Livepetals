@@ -8,6 +8,8 @@ import Guarant from "./Affiliates/Guarant";
 import Approach from "./Affiliates/Approach";
 import Why from "./Affiliates/Why";
 import Team from "./Affiliates/Team";
+import Dashboard from "./Affiliates/Dashboard";
+import Streams from "./Affiliates/Streams";
 
 const Affiliate = () => {
   return (
@@ -20,7 +22,10 @@ const Affiliate = () => {
       <Why />
       <Petals />
       <Team />
-      <hr className="divder" />
+      <hr className="divider" />
+      <Streams />
+      <hr className="divider" />
+      <Dashboard />
       <Fast />
       <Guarant />
     </div>
