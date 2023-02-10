@@ -44,21 +44,21 @@ const Navbar = () => {
                       <a href=".">Home</a>
                     </li>
                     <li>
-                      <a href="">Affiliate</a>
+                      <a href="/Affiliate">Affiliate</a>
                     </li>
                     <li>
-                      <a href="creators.php">Creators</a>
+                      <a href="/Creators">Creators</a>
                     </li>
                     <li>
-                      <a href="accelerated-program.php">Program</a>
+                      <a href="/Program">Program</a>
                     </li>
                     <li>
-                      <a href="Login.php">Log In</a>
+                      <a href="/Login">Log In</a>
                     </li>
                     {/* HEADER BUTTON */}
                     <li className="nl-simple" aria-haspopup="true">
                       <a
-                        href="signup.php"
+                        href="/Getstarted"
                         class="btn btn-tra-white pink-hover last-link"
                       >
                         Get Started

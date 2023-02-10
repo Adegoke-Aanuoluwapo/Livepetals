@@ -7,6 +7,7 @@ import "./css/animate.css";
 //import "./css/flaticon.css";
 import "./css/responsive.css";
 import "./css/menu.css";
+import Affiliates from "./Affiliate";
 //import "./css/style.css";
 //import "./js/bootstrap.min.js";
 //import "./js/imagesloaded.pkgd.min.js";

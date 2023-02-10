@@ -2,46 +2,25 @@ import React from "react";
 
 const Petals = () => {
   return (
-    <div className="petals">
-      <div className="petal-up">
-        <h2>
-          Become a Livepetal Affiliate and take control of unlimited casflow
-          streams
-        </h2>
-        <p>
-          A smart approach to mastering the art of selling anything online with
-          ease and keep huge profit flowing in constantly
-        </p>
-      </div>
-      <div className="petals-down">
-        <div className="first">
-          <img src="../images/img18.png" alt="" className="petal-img" />
-          <h2>Extremely Simplified</h2>
-          <p>
-            You don't need to be a professional, Livepetal gives you all the
-            guide you need to start building your online business empire right
-            away
-          </p>
-        </div>
-        <div className="second">
-          <img src="../images/img-23.png" alt="" className="petal-img" />
-          <h2>Control your Options</h2>
-          <p>
-            You can take full control of your options to determine where you
-            want your main cashflow to come from and how you want to manage them
-          </p>
-        </div>
-        <div className="third">
-          <img src="../images/img-24.png" alt="" className="petal-img" />
-          <h2>Active automation</h2>
-          <p>
-            By automation your online marketing campeign you are able to
-            generate massive transactions even while you are not actively
-            working
-          </p>
+    <section
+      id="cta-10"
+      className="bg-livepetal pt-50 pb-50 cta-section division"
+    >
+      <div className="container white-color">
+        <div className="cta-10-wrapper">
+          <div className="row d-flex align-items-center">
+            {/* CALL TO ACTION */}
+            <div className="col-lg-4 col-xl-5">
+              <div className="text-end">
+                <div className="cta-10-img text-center">
+                  <img className="img-fluid" src="./imafes/img10.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

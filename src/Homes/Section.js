@@ -18,7 +18,7 @@ const Section = () => {
               <h2 className="h2-lg">Your Prefered digital Market Place</h2>
               <ul className="simple-list">
                 <li className="list-item">
-                  <p>
+                  <p className="p-xl">
                     We power digital solutions that exactly meets your needs.
                     Select from our catalogue of existing services or simply
                     order a completely new development from scratch

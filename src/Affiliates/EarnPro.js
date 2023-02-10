@@ -3,27 +3,71 @@ import React from "react";
 
 const EarnPro = () => {
   return (
-    <div className="section">
-      <div className="section-left">
-        <h1 className="unique">
-          Earn money promoting quality digital solutions
-        </h1>
-        <ul>
-          <li className="list">
-            Leaverage the power of sales automation to generate leads and
-            convert them to active customers and get your wallet funded with
-            profits while you are practically away.
-          </li>
-          <li className="list">
-            Effortlessly build active and dynamic sales team across the globe to
-            activate the power corporate sales and daily profit sharing
-          </li>
-        </ul>
+    <section
+      id="hero-4"
+      className="bg-scroll hero-section division"
+      style={{ backgroundColor: "#036" }}
+    >
+      <div className="container">
+        <div className="row d-flex align-items-center">
+          <div className="col-md-6">
+            <div className="hero-4-txt white-color">
+              <h2 className="h2-lg">Earn money selling digital contents</h2>
+              <ul className="simple-list">
+                <li className="list-item">
+                  <p className="p-xl">
+                    Become a Content Creator in Livepetal and transform your
+                    experience, knowledge and skill set into a thriving business
+                    that generates consistent cash flow for you even while you
+                    are away.
+                  </p>
+                </li>
+                <li className="list-item">
+                  <p className="p-xl">
+                    You definitely have something to sell online. You can offer
+                    video courses, virtual training, e-books or some set of
+                    development programmes. Join our Content Creator program to
+                    learn how to monitze your skills.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-5 col-lg-6">
+            <div
+              className="hero-1-img wow fadeInLeft"
+              style={{ visibility: "visible", AnimationName: "fadeInLeft" }}
+            >
+              <img
+                className="img-fluid"
+                src="../images/img19.png"
+                alt="hero-image"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="earn-right">
-        <img src="../public/images/img-04.png" alt="" />
+      <div className="wave-shape-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+          <path
+            fill="#ffffff"
+            fillOpacity="1"
+            d="M0,192L120,197.3C240,203,480,213,720,197.3C960,181,1200,139,1320,117.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
       </div>
-    </div>
+    </section>
+
+    // <div className="section ">
+    //   <div className="col-md-6">
+
+    //   </div>
+    //       <div className="section-right">
+    //         <img src="../images/img-17.png" alt="" className="section-img" />
+    //       </div>
+    //     </div>
+    //   );
+    // };
   );
 };
 

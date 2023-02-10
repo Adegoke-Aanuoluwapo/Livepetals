@@ -2,11 +2,12 @@ import logo from "./logo.svg";
 //import "./App.css";
 import "./index.css";
 
-import Home from "./Homes/Home";
-import Creator from "./Creator";
-import Affiliate from "./Affiliates/Affiliate";
+import Home from "./Homes/House";
+import Creator from "./Creators";
+import Affiliate from "./Affiliate";
 import Login from "./Login";
 import Program from "./Program";
+import GetStarted from "./Getstarted";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -22,9 +23,10 @@ function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
         <Route path="/Affiliate" element={<Affiliate />} />
-        <Route path="/Creator" element={<Creator />} />
+        <Route path="/Creators" element={<Creator />} />
         <Route path="/Program" element={<Program />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/Getstarted" element={<GetStarted />} />
       </Route>
     )
   );
@@ -61,6 +63,7 @@ const Root = () => {
         <Link to="/Creator">Creators</Link>
         <Link to="/Program">Program</Link>
         <Link to="/Login">Log In</Link>
+        <Link to="/Getstarted">Get Started</Link>
       </div>
 
       <div>
