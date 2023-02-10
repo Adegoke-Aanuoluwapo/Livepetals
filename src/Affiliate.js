@@ -7,6 +7,7 @@ import Content from "./Affiliates/Content";
 import Guarant from "./Affiliates/Guarant";
 import Approach from "./Affiliates/Approach";
 import Why from "./Affiliates/Why";
+import Team from "./Affiliates/Team";
 
 const Affiliate = () => {
   return (
@@ -17,10 +18,9 @@ const Affiliate = () => {
       <hr className="divider" />
       <Approach />
       <Why />
-
-      <hr className="divider" />
       <Petals />
-      <hr />
+      <Team />
+      <hr className="divder" />
       <Fast />
       <Guarant />
     </div>
