@@ -17,6 +17,98 @@ const Questions = () => {
             </div>
           </div>
         </div>
+        {/* FAQS SECTION */}
+        <div className="faqs-2-questions">
+          <div className="row row-cols-1 row-cols-lg-2">
+            <div className="col">
+              <div className="questions-holder pr-5">
+                {/* QUESTION 1 */}
+                <div
+                  className="question wow fadeInUp"
+                  style={{ visibility: "visible", animationName: "fadeInUp" }}
+                >
+                  <h5 className="h5-md">
+                    How can i get started as a Livepetal Affiliate?
+                  </h5>
+                  <p className="p-lg">
+                    Simply locate and click on the signup button and provide the
+                    required information to signup. The process takes less than
+                    5 minutes.
+                  </p>
+                </div>
+                <div
+                  className="question wow fadeInUp"
+                  style={{ visibility: "visible", animationName: "fadeInUp" }}
+                >
+                  <h5 className="h5-md">
+                    How can i get started as a Livepetal Affiliate?
+                  </h5>
+                  <p className="p-lg">
+                    Simply locate and click on the signup button and provide the
+                    required information to signup. The process takes less than
+                    5 minutes.{" "}
+                  </p>
+                </div>
+                <div
+                  className="question wow fadeInUp"
+                  style={{ visibility: "visible", animationName: "fadeInUp" }}
+                >
+                  <h5 className="h5-md">
+                    How can i get started as a Livepetal Affiliate?
+                  </h5>
+                  <p className="p-lg">
+                    Simply locate and click on the signup button and provide the
+                    required information to signup. The process takes less than
+                    5 minutes.{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="questions-holder pl-15">
+                <div
+                  className="question wow fadeInUp"
+                  style={{ visibility: "visible", animationName: "fadeInUp" }}
+                >
+                  <h5 className="h5-md">
+                    How can i get started as a Livepetal Affiliate?
+                  </h5>
+                  <p className="p-lg">
+                    Simply locate and click on the signup button and provide the
+                    required information to signup. The process takes less than
+                    5 minutes.
+                  </p>
+                </div>
+                <div
+                  className="question wow fadeInUp"
+                  style={{ visibility: "visible", animationName: "fadeInUp" }}
+                >
+                  <h5 className="h5-md">
+                    How can i get started as a Livepetal Affiliate?
+                  </h5>
+                  <p className="p-lg">
+                    Simply locate and click on the signup button and provide the
+                    required information to signup. The process takes less than
+                    5 minutes.
+                  </p>
+                </div>
+                <div
+                  className="question wow fadeInUp"
+                  style={{ visibility: "visible", animationName: "fadeInUp" }}
+                >
+                  <h5 className="h5-md">
+                    How can i get started as a Livepetal Affiliate?
+                  </h5>
+                  <p className="p-lg">
+                    Simply locate and click on the signup button and provide the
+                    required information to signup. The process takes less than
+                    5 minutes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
