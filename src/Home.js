@@ -12,6 +12,7 @@ import Earn from "./Earn";
 import Bonus from "./Bonus";
 import Live from "./Live";
 import Footer from "./Footer";
+import "./index.css";
 
 const Home = () => {
   return (

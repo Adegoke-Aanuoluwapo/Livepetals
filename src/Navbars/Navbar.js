@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import { FaBars } from "react-icons/fa";
 import { links } from "./data";
+import "../index.css";
 // import { useGlobalContext } from "./context";
 
 const Navbar = () => {

@@ -10,6 +10,9 @@ import Why from "./Affiliates/Why";
 import Team from "./Affiliates/Team";
 import Dashboard from "./Affiliates/Dashboard";
 import Streams from "./Affiliates/Streams";
+import SignUp from "./Affiliates/SignUp";
+import "./index.css";
+import Questions from "./Affiliates/Questions";
 
 const Affiliate = () => {
   return (
@@ -26,6 +29,8 @@ const Affiliate = () => {
       <Streams />
       <hr className="divider" />
       <Dashboard />
+      <SignUp />
+      <Questions />
       <Fast />
       <Guarant />
     </div>

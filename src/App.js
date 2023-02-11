@@ -58,15 +58,6 @@ const Root = () => {
   return (
     <>
       <div>
-        <Link to="/">Home</Link>
-        <Link to="/Affiliate">Affiliate</Link>
-        <Link to="/Creator">Creators</Link>
-        <Link to="/Program">Program</Link>
-        <Link to="/Login">Log In</Link>
-        <Link to="/Getstarted">Get Started</Link>
-      </div>
-
-      <div>
         <Outlet />
       </div>
     </>

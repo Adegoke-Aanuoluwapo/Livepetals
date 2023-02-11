@@ -19,8 +19,29 @@ const Streams = () => {
                 Some may focus on a particular income stream within the
                 platform, with the power of automation you can engineer all
                 major income streams to constantly generate massive cashflow for
-                you{" "}
+                you
               </p>
+              <h5 className="h5-lg m-o">Sales Bonuses</h5>
+              <p className="p-lg">
+                You earn a bonus on your personal sales and the sales of each
+                member of your team{" "}
+              </p>
+              <h5 className="h5-lg">Referral Commissions</h5>
+              <p className="p-lg">
+                You earn from membership plan activation of your team
+              </p>
+              <h5 className="h5-lg m-0">Global Profits</h5>
+              <p className="p-lg">
+                You also earn commissions outside your team circle
+              </p>
+            </div>
+          </div>
+          <div className="col-md-5 col-lg-6 order-first order-md-2">
+            <div
+              className="rel img-block right-column wow fadeInLeft"
+              style={{ visibility: "visible", animationName: "fadeInLeft" }}
+            >
+              <img className="img-fluid" src="images/img16.png" alt="" />
             </div>
           </div>
         </div>
